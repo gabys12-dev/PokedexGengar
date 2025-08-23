@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex do Gengar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <h1 class="titulo-principal">Pokédex do Gengar</h1>
+  </header>
+
+  <h2 class="titulo-bev">Seja bem-vindo à sua Pokédex!</h2>
+
+  <section class="intro">
+    <h3 class="titulo-sobre">
+      <strong>O que é uma Pokédex?</strong><br>
+      A Pokédex é como uma enciclopédia digital do mundo Pokémon. Dentro do universo dos jogos, desenhos e mangás,
+      ela é um dispositivo usado pelos treinadores para obter informações sobre os Pokémon, como:
+      <br><br>
+      Nome • Número na Pokédex • Tipo(s) • Descrição • Altura e Peso • Evoluções
+      <br><br>
+      Cada Pokémon tem seu número oficial na Pokédex, começando do #001 (Bulbasaur) em diante.
+    </h3>
+    <img class="intro-img" src="https://i.pinimg.com/originals/b9/02/bf/b902bf0319416561211f8524ff517bcb.gif" alt="gengar-img">
+  </section>
+
+  <section class="cont">
+    <h3 class="titulo-ex">
+      <strong>Agora! O que é o Gengar? E por que a Pokédex dele?</strong><br>
+      O Gengar é um Pokémon da primeira geração. Ele é do tipo Fantasma e Venenoso, extremamente brincalhão
+      e adora pregar pegadinhas. Logo abaixo você verá suas fases, desde Gastly até Gengar.
+      Existem ainda outras variações, como o Gigantamax.
+      <br><br>
+      A Pokédex é dele porque ele é um dos favoritos da criadora do site: por ser divertido, misterioso,
+      e principalmente por ser roxo! 
+    </h3>
+  </section>
+
+  <div class="pokedex">
+    <h2>Evolução do Gengar</h2>
+
+    <div id="pokemon-card">
+      <img id="pokemon-img" src="" alt="Pokémon">
+      <h3 id="pokemon-name"></h3>
+      <p id="pokemon-id"></p>
+      <p id="pokemon-types"></p>
+      <p id="pokemon-desc"></p>
+      <p id="pokemon-info"></p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="mostrarPokemon(0)">Gastly</button>
+      <button onclick="mostrarPokemon(1)">Haunter</button>
+      <button onclick="mostrarPokemon(2)">Gengar</button>
+      <button onclick="mostrarPokemon(3)">Mega Gengar</button>
+      <button onclick="mostrarPokemon(4)">Gengar Gigantamax</button>
+    </div>
+  </div>
+
+  <h3 class="titulo-outros">
+    <strong>Outros Pokémon que você pode gostar:</strong>
+  </h3>
+
+  <div class="gifs-container">
+    <img class="mew" src="https://i.pinimg.com/originals/8d/8d/cb/8d8dcb9d29e7a7348aaade8e2b2d332e.gif" alt="mew">
+    <img class="charizard" src="https://giffiles.alphacoders.com/139/13940.gif" alt="charizard">
+    <img class="scorbunny" src="https://media.tenor.com/LbZrWjrahKsAAAAj/cinderace.gif" alt="scorbunny">
+    <img class="gengar-pulando" src="https://i.pinimg.com/originals/66/36/d3/6636d37ba22a391c6353b1436a81f656.gif" alt="gengar-pulando">
+    <img class="haunter" src="https://img1.picmix.com/output/stamp/normal/9/4/5/3/1923549_dd481.gif" alt="haunter">
+    <img class="gastly-andando" src="https://cdnb.artstation.com/p/assets/images/images/037/207/521/original/matthijs-n-p-ghastly.gif?1619772227" alt="gastly-andando">
+  </div>
+
+  <footer class="sobre-mim">
+    <div class="sobre-container">
+      <img class="minha-foto" src="assets/fotocurriculo.jpg" alt="Minha Foto">
+      <div class="sobre-texto">
+        <h2>Sobre Mim</h2>
+        <p>
+          Oi! Meu nome é <strong>Gabryella Gonçalves</strong>, sou apaixonada por tecnologia e desenvolvimento web. 
+          Esse projeto da Pokédex foi criado para praticar HTML, CSS e JavaScript, unindo programação e diversão.
+        </p>
+        <p>
+          Atualmente curso o <strong>4º semestre de Ciência da Computação</strong> na 
+          <strong>UNAMA – Universidade da Amazônia</strong>. 
+          Sou <strong>líder de turma</strong> e <strong>presidente da LAFC² – Liga Acadêmica Feminina de Ciência da Computação</strong>.
+        </p>
+        <p>
+          Participei de projetos sociais como <strong>TechBase</strong> e <strong>Amadok</strong>, que tinham como foco dar aulas de tecnologia 
+          para a comunidade na Usina da Paz do Bengui. 
+          No momento, estou em estágio na <strong>SEDUC – Secretaria de Educação do Estado do Pará</strong>, 
+          onde atuo como estagiária de T.I., auxiliando na manutenção de banco de dados de questões e ajudando meus colegas a utilizar a informática no dia a dia.
+        </p>
+        <p>
+          Tenho experiência em: <em>HTML, CSS, JavaScript, C, Dart, SQLite, Figma, Flutter, Oracle e Construct</em>.  
+          Meu objetivo é continuar aprendendo e me especializando na área de desenvolvimento.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
